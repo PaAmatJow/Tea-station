@@ -553,15 +553,20 @@ footer
 	font-size: 1.875rem;
 	margin: 0 0.25rem;
 	color: var(--clr-white);
+	transition: var(--transition);
+}
+.social-icon:hover {
+	color: var(--clr-primary);
 }
 
-.footer-text,
-#date {
+.footer-text {
 	text-transform: uppercase;
 	letter-spacing: var(--spacing);
 	color: var(--clr-white);
+	margin-top: 1.25rem;
+	font-weight: 400;
 }
 
-.footer-text span {
+.company {
 	color: var(--clr-primary);
 }
